@@ -218,6 +218,12 @@ a {
   max-width: 760px;
 }
 
+.section__title--wide {
+  max-width: none;
+  white-space: nowrap;
+  font-size: clamp(1.4rem, 4.6vw, 2.4rem);
+}
+
 .section__lead {
   color: var(--muted);
   font-size: 1.15rem;
