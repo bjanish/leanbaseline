@@ -463,6 +463,21 @@
         }
       });
     })();
+
+    // Page view counter
+    fetch('https://countapi.mileshilliard.com/api/v1/hit/leanbaseline_com_visits')
+      .then(function (res) { return res.json(); })
+      .then(function (data) {
+        document.getElementById('view-count').textContent = (data.value || 0).toLocaleString();
+      })
+      .catch(function () {
+        var el = document.getElementById('view-count');
+        if (el) el.parentElement.style.display = 'none';
+      });
   </script>
+
+  <div class="viewcount" aria-hidden="true">
+    <span id="view-count">—</span> views
+  </div>
 </body>
 </html>
