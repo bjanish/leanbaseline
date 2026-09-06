@@ -419,11 +419,7 @@ a {
   color: var(--white);
 }
 
-/* ---------------- Chapters (full manuscript) ---------------- */
-
-.book__eyebrow {
-  margin-bottom: 14px;
-}
+/* ---------------- Content blocks (the full idea) ---------------- */
 
 .chapter {
   max-width: 760px;
@@ -523,7 +519,7 @@ a {
   text-align: center;
 }
 
-.footer__book {
+.footer__title {
   font-family: "Fraunces", serif;
   font-weight: 600;
   font-size: 1.1rem;

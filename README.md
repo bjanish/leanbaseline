@@ -1,11 +1,11 @@
 # Lean Baseline
 
-Landing page and full manuscript for **The Lean Baseline** by Brian Janish —
-how to kill debt, build wealth, and reach financial autopilot without budgeting.
+Landing page for **The Lean Baseline** by Brian Janish — how to kill debt,
+build wealth, and reach financial autopilot without budgeting.
 
 ## Structure
 
-- `index.html` — the site (marketing sections + full book content)
+- `index.html` — the site (summary sections + the full idea)
 - `styles.css` — all styling
 
 ## Local preview
