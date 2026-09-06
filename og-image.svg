@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <radialGradient id="glow" cx="50%" cy="0%" r="80%">
+      <stop offset="0%" stop-color="#4361ee" stop-opacity="0.35"/>
+      <stop offset="60%" stop-color="#0f1226" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="630" fill="#0f1226"/>
+  <rect width="1200" height="630" fill="url(#glow)"/>
+
+  <!-- Lb monogram, top-left -->
+  <g transform="translate(90 88)">
+    <path d="M0 0 V54" fill="none" stroke="#5b74ff" stroke-width="12" stroke-linecap="round"/>
+    <path d="M40 0 V54" fill="none" stroke="#e8eaf6" stroke-width="12" stroke-linecap="round"/>
+    <circle cx="48" cy="42" r="14" fill="none" stroke="#e8eaf6" stroke-width="12"/>
+    <path d="M-8 68 H70" fill="none" stroke="#ffd166" stroke-width="12" stroke-linecap="round"/>
+  </g>
+
+  <!-- Eyebrow -->
+  <text x="90" y="300" fill="#ffd166" font-family="Inter, system-ui, sans-serif"
+        font-size="26" font-weight="600" letter-spacing="4">A NEW WAY TO BUILD WEALTH</text>
+
+  <!-- Title -->
+  <text x="86" y="392" fill="#e8eaf6" font-family="Georgia, 'Times New Roman', serif"
+        font-size="96" font-weight="700">The Lean Baseline</text>
+
+  <!-- Subtitle -->
+  <text x="90" y="462" fill="#a3a8c9" font-family="Inter, system-ui, sans-serif"
+        font-size="34" font-weight="400">Kill debt, build wealth, and reach financial autopilot</text>
+  <text x="90" y="508" fill="#a3a8c9" font-family="Inter, system-ui, sans-serif"
+        font-size="34" font-weight="400">— <tspan fill="#ffd166" font-style="italic">without budgeting.</tspan></text>
+
+  <!-- Byline -->
+  <text x="90" y="576" fill="#a3a8c9" font-family="Inter, system-ui, sans-serif"
+        font-size="26" font-weight="500">by Brian Janish · leanbaseline.com</text>
+</svg>
