@@ -489,6 +489,13 @@ a {
   max-width: 760px;
 }
 
+.closer {
+  font-family: "Fraunces", Georgia, serif;
+  font-size: 1.25rem;
+  color: var(--gold);
+  margin-top: 8px;
+}
+
 /* ---------------- CTA ---------------- */
 
 .section--cta {
