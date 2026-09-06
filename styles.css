@@ -493,6 +493,25 @@ a {
   margin: 20px auto 34px;
 }
 
+.cta__actions {
+  display: flex;
+  gap: 14px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.cta__confirm {
+  margin: 22px 0 0;
+  font-size: 0.85rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--green);
+}
+
+.cta__confirm[hidden] {
+  display: none;
+}
+
 /* ---------------- Footer ---------------- */
 
 .footer {
