@@ -1,10 +1,11 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
   <rect width="64" height="64" rx="14" fill="#0f1226"/>
   <rect x="1.5" y="1.5" width="61" height="61" rx="12.5" fill="none" stroke="#2a2f5a" stroke-width="1.5"/>
-  <!-- L -->
-  <path d="M18 18 V46 H33" fill="none" stroke="#5b74ff" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
-  <!-- baseline accent under the L foot -->
-  <path d="M18 46 H46" fill="none" stroke="#ffd166" stroke-width="6" stroke-linecap="round"/>
-  <!-- B -->
-  <path d="M38 18 H45 a7 7 0 0 1 0 14 H38 Z" fill="none" stroke="#e8eaf6" stroke-width="4.5" stroke-linejoin="round"/>
+  <!-- Bold L: vertical stem -->
+  <path d="M20 15 V41" fill="none" stroke="#5b74ff" stroke-width="7" stroke-linecap="round"/>
+  <!-- Lowercase b: tall stem + bowl -->
+  <path d="M38 15 V41" fill="none" stroke="#e8eaf6" stroke-width="7" stroke-linecap="round"/>
+  <circle cx="42.5" cy="34" r="7.5" fill="none" stroke="#e8eaf6" stroke-width="7"/>
+  <!-- Gold baseline both letters stand on -->
+  <path d="M16 48 H48" fill="none" stroke="#ffd166" stroke-width="7" stroke-linecap="round"/>
 </svg>
