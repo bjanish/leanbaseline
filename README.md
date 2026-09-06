@@ -1,6 +1,6 @@
 # Lean Baseline
 
-Landing page and full manuscript for **The Two-Week Lean Baseline** by Brian Janish —
+Landing page and full manuscript for **The Lean Baseline** by Brian Janish —
 how to kill debt, build wealth, and reach financial autopilot without budgeting.
 
 ## Structure
