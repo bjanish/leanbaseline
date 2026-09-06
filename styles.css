@@ -163,6 +163,40 @@ a {
   color: var(--muted);
 }
 
+/* ---------------- Personal note ---------------- */
+
+.section--note {
+  background: var(--navy-2);
+}
+
+.note {
+  max-width: 720px;
+  margin-top: 20px;
+  padding: 36px 40px;
+  border-radius: var(--radius);
+  border: 1px solid var(--border);
+  border-left: 4px solid var(--gold);
+  background: var(--card);
+}
+
+.note .prose p {
+  color: var(--text);
+}
+
+.note__sign {
+  font-family: "Fraunces", Georgia, serif;
+  font-style: italic;
+  font-size: 1.15rem;
+  color: var(--gold);
+  margin: 24px 0 0;
+}
+
+@media (max-width: 760px) {
+  .note {
+    padding: 28px 24px;
+  }
+}
+
 /* ---------------- Sections ---------------- */
 
 .section {
