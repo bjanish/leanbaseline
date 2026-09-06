@@ -281,6 +281,32 @@ a {
   font-size: 1.05rem;
 }
 
+/* ---------------- Callout ---------------- */
+
+.callout {
+  margin-top: 32px;
+  padding: 26px 30px;
+  border-radius: var(--radius);
+  background: rgba(255, 209, 102, 0.08);
+  border: 1px solid rgba(255, 209, 102, 0.35);
+  max-width: 720px;
+}
+
+.callout__title {
+  font-family: "Inter", sans-serif;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  color: var(--gold);
+  margin-bottom: 10px;
+}
+
+.callout p {
+  margin: 0;
+  font-size: 1.05rem;
+  color: var(--text);
+}
+
 /* ---------------- Steps ---------------- */
 
 .steps {
