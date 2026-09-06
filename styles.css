@@ -213,7 +213,7 @@ a {
 }
 
 .section__title {
-  font-size: clamp(1.8rem, 4vw, 2.6rem);
+  font-size: clamp(1.4rem, 4.6vw, 2.4rem);
   font-weight: 700;
   max-width: 760px;
 }
@@ -221,11 +221,6 @@ a {
 .section__title--wide {
   max-width: none;
   white-space: nowrap;
-  font-size: clamp(1.4rem, 4.6vw, 2.4rem);
-}
-
-.section__title--sm {
-  font-size: clamp(1.4rem, 4.6vw, 2.4rem);
 }
 
 .section__lead {
