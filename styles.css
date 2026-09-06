@@ -573,28 +573,19 @@ a {
   margin: 0;
 }
 
-/* ---------------- View counter ---------------- */
+/* ---------------- View counter (hidden, reveal by selecting) ---------------- */
 
 .viewcount {
   position: fixed;
   left: 16px;
-  bottom: 14px;
+  bottom: 12px;
   z-index: 10;
   font-size: 0.72rem;
   letter-spacing: 0.08em;
-  text-transform: uppercase;
-  color: var(--muted);
-  background: rgba(15, 18, 38, 0.7);
-  border: 1px solid var(--border);
-  padding: 6px 12px;
-  border-radius: 999px;
-  backdrop-filter: blur(6px);
-  pointer-events: none;
-}
-
-.viewcount #view-count {
-  color: var(--text);
-  font-weight: 600;
+  /* Same as the page background so it's invisible at rest,
+     but readable when you drag-select it with the mouse. */
+  color: var(--navy);
+  user-select: text;
 }
 
 /* ---------------- Responsive ---------------- */
