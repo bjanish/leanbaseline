@@ -172,7 +172,7 @@ a {
 .note {
   max-width: 720px;
   margin-top: 12px;
-  padding: 36px 40px;
+  padding: 24px 40px 32px;
   border-radius: var(--radius);
   border: 1px solid var(--border);
   border-left: 4px solid var(--gold);
@@ -197,7 +197,7 @@ a {
 
 @media (max-width: 760px) {
   .note {
-    padding: 28px 24px;
+    padding: 20px 24px 26px;
   }
 }
 
