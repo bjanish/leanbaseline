@@ -171,12 +171,16 @@ a {
 
 .note {
   max-width: 720px;
-  margin-top: 20px;
+  margin-top: 12px;
   padding: 36px 40px;
   border-radius: var(--radius);
   border: 1px solid var(--border);
   border-left: 4px solid var(--gold);
   background: var(--card);
+}
+
+.note .prose {
+  margin-top: 0;
 }
 
 .note .prose p {
