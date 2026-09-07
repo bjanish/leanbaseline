@@ -201,20 +201,6 @@ a {
   }
 }
 
-/* ---------------- Centered section variant ---------------- */
-
-.section--center .section__title {
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
-}
-
-.section--center .prose {
-  margin-left: auto;
-  margin-right: auto;
-  text-align: left;
-}
-
 /* ---------------- Sections ---------------- */
 
 .section {
@@ -316,8 +302,6 @@ a {
 
 .callout--narrow {
   max-width: 720px;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .callout__title {
@@ -488,7 +472,7 @@ a {
 .benefits {
   list-style: none;
   padding: 0;
-  margin: 40px auto 0;
+  margin: 40px 0 0;
   display: grid;
   gap: 16px;
   max-width: 720px;
