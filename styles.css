@@ -330,6 +330,10 @@ a {
   color: var(--text);
 }
 
+.callout p + p {
+  margin-top: 14px;
+}
+
 /* ---------------- Steps ---------------- */
 
 .steps {
