@@ -300,6 +300,10 @@ a {
   border: 1px solid rgba(255, 209, 102, 0.35);
 }
 
+.callout--narrow {
+  max-width: 720px;
+}
+
 .callout__title {
   font-family: "Inter", sans-serif;
   font-size: 0.8rem;
