@@ -212,7 +212,7 @@ a {
 .section--center .prose {
   margin-left: auto;
   margin-right: auto;
-  text-align: center;
+  text-align: left;
 }
 
 /* ---------------- Sections ---------------- */
