@@ -95,7 +95,7 @@ a {
 }
 
 .btn--ghost {
-  border: 1px solid var(--border);
+  border: 1.5px solid var(--muted);
   color: var(--text);
   background: transparent;
 }
